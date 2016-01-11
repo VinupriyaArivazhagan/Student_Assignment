@@ -15,6 +15,17 @@
 		3AA3EDF01C440E6C00FF7A5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AA3EDEE1C440E6C00FF7A5D /* LaunchScreen.storyboard */; };
 		3AA3EDFB1C440E6C00FF7A5D /* Student_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3EDFA1C440E6C00FF7A5D /* Student_AssignmentTests.swift */; };
 		3AA3EE061C440E6C00FF7A5D /* Student_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3EE051C440E6C00FF7A5D /* Student_AssignmentUITests.swift */; };
+		3AA3EE141C440ECF00FF7A5D /* UrlSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3EE131C440ECF00FF7A5D /* UrlSession.swift */; };
+		3AA3EE161C441AD400FF7A5D /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3EE151C441AD400FF7A5D /* ProfileCell.swift */; };
+		3AA3EE181C441F4600FF7A5D /* AssignmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3EE171C441F4600FF7A5D /* AssignmentCell.swift */; };
+		3AA3EE1A1C441FD000FF7A5D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3EE191C441FD000FF7A5D /* Extensions.swift */; };
+		3AA3EE491C44314100FF7A5D /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3EE451C44314100FF7A5D /* Student+CoreDataProperties.swift */; };
+		3AA3EE4A1C44314100FF7A5D /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3EE461C44314100FF7A5D /* Student.swift */; };
+		3AA3EE531C4448E900FF7A5D /* Assignment+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3EE511C4448E900FF7A5D /* Assignment+CoreDataProperties.swift */; };
+		3AA3EE541C4448E900FF7A5D /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3EE521C4448E900FF7A5D /* Assignment.swift */; };
+		3AA3EE561C444A2C00FF7A5D /* AttachmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3EE551C444A2C00FF7A5D /* AttachmentViewController.swift */; };
+		3AA3EE581C444CDD00FF7A5D /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3EE571C444CDD00FF7A5D /* LoadingView.swift */; };
+		3AA3EE5A1C444CEC00FF7A5D /* PopUPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3EE591C444CEC00FF7A5D /* PopUPView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +60,18 @@
 		3AA3EE011C440E6C00FF7A5D /* Student_AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Student_AssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA3EE051C440E6C00FF7A5D /* Student_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student_AssignmentUITests.swift; sourceTree = "<group>"; };
 		3AA3EE071C440E6C00FF7A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AA3EE131C440ECF00FF7A5D /* UrlSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlSession.swift; sourceTree = "<group>"; };
+		3AA3EE151C441AD400FF7A5D /* ProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		3AA3EE171C441F4600FF7A5D /* AssignmentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentCell.swift; sourceTree = "<group>"; };
+		3AA3EE191C441FD000FF7A5D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3AA3EE1F1C4424B500FF7A5D /* Student_Assignment-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Student_Assignment-Bridging-Header.h"; sourceTree = "<group>"; };
+		3AA3EE451C44314100FF7A5D /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Student+CoreDataProperties.swift"; path = "../Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3AA3EE461C44314100FF7A5D /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Student.swift; path = ../Student.swift; sourceTree = "<group>"; };
+		3AA3EE511C4448E900FF7A5D /* Assignment+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Assignment+CoreDataProperties.swift"; path = "../Assignment+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3AA3EE521C4448E900FF7A5D /* Assignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Assignment.swift; path = ../Assignment.swift; sourceTree = "<group>"; };
+		3AA3EE551C444A2C00FF7A5D /* AttachmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentViewController.swift; sourceTree = "<group>"; };
+		3AA3EE571C444CDD00FF7A5D /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		3AA3EE591C444CEC00FF7A5D /* PopUPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUPView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +123,18 @@
 			isa = PBXGroup;
 			children = (
 				3AA3EDE21C440E6C00FF7A5D /* AppDelegate.swift */,
-				3AA3EDE41C440E6C00FF7A5D /* ViewController.swift */,
+				3AA3EE1D1C44206400FF7A5D /* Controller */,
+				3AA3EE1C1C44205900FF7A5D /* ServiceCall */,
+				3AA3EE1B1C44205200FF7A5D /* Cell */,
+				3AA3EE1E1C44206B00FF7A5D /* Utils */,
+				3AA3EE5D1C445D4900FF7A5D /* view */,
+				3AA3EE3C1C44254300FF7A5D /* model */,
 				3AA3EDE61C440E6C00FF7A5D /* Main.storyboard */,
 				3AA3EDEC1C440E6C00FF7A5D /* Assets.xcassets */,
 				3AA3EDEE1C440E6C00FF7A5D /* LaunchScreen.storyboard */,
 				3AA3EDF11C440E6C00FF7A5D /* Info.plist */,
 				3AA3EDE91C440E6C00FF7A5D /* Student_Assignment.xcdatamodeld */,
+				3AA3EE1F1C4424B500FF7A5D /* Student_Assignment-Bridging-Header.h */,
 			);
 			path = Student_Assignment;
 			sourceTree = "<group>";
@@ -126,6 +155,76 @@
 				3AA3EE071C440E6C00FF7A5D /* Info.plist */,
 			);
 			path = Student_AssignmentUITests;
+			sourceTree = "<group>";
+		};
+		3AA3EE1B1C44205200FF7A5D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3AA3EE151C441AD400FF7A5D /* ProfileCell.swift */,
+				3AA3EE171C441F4600FF7A5D /* AssignmentCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		3AA3EE1C1C44205900FF7A5D /* ServiceCall */ = {
+			isa = PBXGroup;
+			children = (
+				3AA3EE131C440ECF00FF7A5D /* UrlSession.swift */,
+			);
+			name = ServiceCall;
+			sourceTree = "<group>";
+		};
+		3AA3EE1D1C44206400FF7A5D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3AA3EDE41C440E6C00FF7A5D /* ViewController.swift */,
+				3AA3EE551C444A2C00FF7A5D /* AttachmentViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3AA3EE1E1C44206B00FF7A5D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3AA3EE191C441FD000FF7A5D /* Extensions.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		3AA3EE361C44250F00FF7A5D /* Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				3AA3EE511C4448E900FF7A5D /* Assignment+CoreDataProperties.swift */,
+				3AA3EE521C4448E900FF7A5D /* Assignment.swift */,
+			);
+			name = Assignment;
+			sourceTree = "<group>";
+		};
+		3AA3EE3B1C44252A00FF7A5D /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				3AA3EE451C44314100FF7A5D /* Student+CoreDataProperties.swift */,
+				3AA3EE461C44314100FF7A5D /* Student.swift */,
+			);
+			name = Student;
+			sourceTree = "<group>";
+		};
+		3AA3EE3C1C44254300FF7A5D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3AA3EE361C44250F00FF7A5D /* Assignment */,
+				3AA3EE3B1C44252A00FF7A5D /* Student */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		3AA3EE5D1C445D4900FF7A5D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3AA3EE571C444CDD00FF7A5D /* LoadingView.swift */,
+				3AA3EE591C444CEC00FF7A5D /* PopUPView.swift */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +358,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AA3EE181C441F4600FF7A5D /* AssignmentCell.swift in Sources */,
 				3AA3EDE51C440E6C00FF7A5D /* ViewController.swift in Sources */,
+				3AA3EE491C44314100FF7A5D /* Student+CoreDataProperties.swift in Sources */,
+				3AA3EE5A1C444CEC00FF7A5D /* PopUPView.swift in Sources */,
+				3AA3EE561C444A2C00FF7A5D /* AttachmentViewController.swift in Sources */,
+				3AA3EE541C4448E900FF7A5D /* Assignment.swift in Sources */,
 				3AA3EDEB1C440E6C00FF7A5D /* Student_Assignment.xcdatamodeld in Sources */,
+				3AA3EE4A1C44314100FF7A5D /* Student.swift in Sources */,
+				3AA3EE141C440ECF00FF7A5D /* UrlSession.swift in Sources */,
+				3AA3EE531C4448E900FF7A5D /* Assignment+CoreDataProperties.swift in Sources */,
 				3AA3EDE31C440E6C00FF7A5D /* AppDelegate.swift in Sources */,
+				3AA3EE161C441AD400FF7A5D /* ProfileCell.swift in Sources */,
+				3AA3EE581C444CDD00FF7A5D /* LoadingView.swift in Sources */,
+				3AA3EE1A1C441FD000FF7A5D /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +511,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Student_Assignment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vinupriya.Student-Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Student_Assignment/Student_Assignment-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -412,10 +525,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Student_Assignment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vinupriya.Student-Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Student_Assignment/Student_Assignment-Bridging-Header.h";
 			};
 			name = Release;
 		};

@@ -13,13 +13,44 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var loadingView : LoadingView!
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        UINavigationBar.appearance().barTintColor = UIColor(red: 43.0/255.0, green: 185.0/255.0, blue: 105.0/255.0, alpha: 1.0)
+        UINavigationBar.appearance().tintColor = UIColor.whiteColor()
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.whiteColor()]
+        
+        SetloadingView()
+        
         return true
     }
 
+    class func SharedDelegate() -> AppDelegate
+    {
+        return UIApplication.sharedApplication().delegate as! AppDelegate
+    }
+    
+    //MARK: loadingView
+    func SetloadingView()
+    {
+        let con : UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("LoadingView")
+        loadingView  = con.view as! LoadingView
+    }
+    
+    func ShowLoadingView() -> ()
+    {
+        loadingView.activityIndicator.startAnimating()
+        self.window!.addSubview(AppDelegate.SharedDelegate().loadingView)
+    }
+    
+    func HideLoadingView() -> ()
+    {
+        loadingView.activityIndicator.stopAnimating()
+        loadingView.removeFromSuperview()
+    }
+    
+    
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

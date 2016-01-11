@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15A284" minimumToolsVersion="Automatic">
+    <entity name="Assignment" representedClassName="Assignment" syncable="YES">
+        <attribute name="attachment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dueDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isAttachment" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="subjectName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relation_student" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Student" inverseName="relation_assignment" inverseEntity="Student" syncable="YES"/>
+    </entity>
+    <entity name="Student" representedClassName="Student" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="standard" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transId" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relation_assignment" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Assignment" inverseName="relation_student" inverseEntity="Assignment" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Student" positionX="-290" positionY="-156" width="128" height="103"/>
+        <element name="Assignment" positionX="-54" positionY="9" width="128" height="133"/>
+    </elements>
 </model>
